@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/id_message_display_box"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/id_message_box"
+        android:layout_alignEnd="@id/id_message_box"
+        android:layout_marginBottom="30dp"
+        android:minHeight="200dp" />
+
+    <EditText
+        android:id="@+id/id_message_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_message_display_box"
+        android:layout_alignStart="@id/id_send_button"
+        android:layout_alignEnd="@id/id_ring_button"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="Enter your message"
+        android:hint="Enter your message"
+        android:inputType='text' />
+
+    <Button
+        android:id="@+id/id_send_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_message_box"
+        android:text="SEND" />
+
+    <Button
+        android:id="@+id/id_ring_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_message_box"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/id_send_button"
+        android:text="RING" />
+
+    <Button
+        android:id="@+id/id_stop_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_message_box"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/id_send_button"
+        android:text="STOP"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

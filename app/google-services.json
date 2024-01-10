@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176566062878",
+    "project_id": "joopiumtest",
+    "storage_bucket": "joopiumtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176566062878:android:2be4276789763c4548430f",
+        "android_client_info": {
+          "package_name": "com.example.joopiumtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtRYi17mQh0eAz1sXNSuLasF74Fa-3nIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
